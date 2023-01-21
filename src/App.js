@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './components/Home';
-import Navbar from './components/Navbar';
-import Categories from './components/Categories';
+import Home from './Components/Home';
+import Navbar from './Components/Navbar';
+import Categories from './Components/Categories';
 
 class App extends React.Component {
   constructor() {
@@ -13,7 +13,7 @@ class App extends React.Component {
   render() {
     return (
       <Router>
-        <Navigation />
+        <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/categories" element={<Categories />} />

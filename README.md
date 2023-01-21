@@ -1,8 +1,40 @@
 <a name="readme-top"></a>
-<div align="center">
 
-  <h3><b>Book Store</b></h3>
+<!--
+HOW TO USE:
+This is an example of how you may give instructions on setting up your project locally.
+
+Modify this file to match your project and remove sections that don't apply.
+
+REQUIRED SECTIONS:
+- Table of Contents
+- About the Project
+  - Built With
+  - Live Demo
+- Getting Started
+- Authors
+- Future Features
+- Contributing
+- Show your support
+- Acknowledgements
+- License
+
+OPTIONAL SECTIONS:
+- FAQ
+
+After you're finished please remove all the comments and instructions!
+-->
+
+<div align="center">
+  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
+  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
+
+  <h3><b>Microverse README Template</b></h3>
+
 </div>
+
+<!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
@@ -16,42 +48,53 @@
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ](#faq)
 - [📝 License](#license)
 
-# 📖 Bookstore: initialize project with components <a name="about-project"></a>
+<!-- PROJECT DESCRIPTION -->
 
-> This is the Book-Store project for react JS.
+# 📖 "Bookstore app" is a website for all fans of mathematics. 
+<a name="about-project"></a>
 
-**Bookstore** is a...
+> Describe your project in 1 or 2 sentences.
+
+**Bookstore** The Bookstore is a website similar to the "Awesome Books" website built in the previous module. You will create an MVP version of it that allows you to::
+
+Display a list of books.
+Add a book.
+Remove a selected book.
 
 ## 🛠 Built With <a name="built-with"></a>
+- React
+- JavaScript
+- HTML/CSS
 
 ### Tech Stack <a name="tech-stack"></a>
+- React
+- JavaScript
+- HTML/CSS
+- Webpack
+- Babel
 
-> This project use React JS.
+> Describe the tech stack and include only the relevant sections that apply to your project.
+
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://html.com/">HTML</a></li>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
-    <li><a href="https://www.javascript.com/">JavaScript</a></li>   
-    <li><a href="https://www.javascript.com/">React JS</a></li>   
+    <li><a href="https://reactjs.org/">React.js</a></li>
   </ul>
 </details>
 
+<!-- Features -->
+
 ### Key Features <a name="key-features"></a>
 
-> Below are the key features of the website:
-
-- **Used React.js**
+**Display a list of books.**
+**Add a book.**
+**Remove a selected book.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -59,74 +102,98 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> This Project is not dyployed yet.
+> Add a link to your deployed project.
 
-- [Live Demo Link](<!-- LIVE DEMO -->
-
-<!-- - [Live Demo Link](https://app.netlify.com/sites/jazzy-basbousa-47c0ce/deploys/63c95448a2b8ae0008f56a7f) -->
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>)
+- [Live Demo Link](https://yourdeployedapplicationlink.com) Currently unavailable
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and running, follow these steps.
 
-1. Clone this repository or download the Zip folder:
+### Prerequisites
 
-**``https://github.com/Fahim-Khan-P/Book-Store.git``**
+In order to run this project you need:
 
-2. Navigate to the location of the folder in your machine:
+- Node.js & npm
+- A web browser
 
-**``you@your-Pc-name:~$ cd <folder>``**
 
-### Visit And Open Files
-1-Visit Repo
-[Visit Repo](https://github.com/Fahim-Khan-P/Book-Store)
+### Setup
 
-2-Download Repo
-[Download Repo](https://github.com/Fahim-Khan-P/Book-Store/archive/refs/heads/main.zip)
+Navigate to your desired folder and enter these commands:
+
+
+```sh
+  git clone https://github.com/teke85/Bookstore-App.git
+  cd Bookstore-App
+```
+
+
+### Install
+
+Install all dependencies with:
+
+```sh
+  npm install
+```
+
+
+### Usage
+
+To run the project, execute the following command:
+
+```sh
+  npm start
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
-👤 **Fahim-Khan**
 
-- GitHub: [@githubhandle](https://github.com/Fahim-Khan-P/)
-<!-- - Twitter: [@twitterhandle](https://github.com/Fahim-Khan-P/) -->
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/fahim-khan-38a4b3240/)
+> Mention all of the collaborators of this project.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+👤 **Teke85**
 
-## 🔭 Future Features <a name="future-features"></a>
-
-> Calculator need to integrate
+- GitHub: [@teke85](https://github.com/teke85)
+- Twitter: [@muttau](https://twitter.com/muttau)
+- LinkedIn: [isiteketo mutau](https://www.linkedin.com/in/isiteketo-mutau-736894241/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Fahim-Khan-P/Book-Store/issues).
+Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- SUPPORT -->
+
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project, Give a ⭐️.
+If you like this project, please give it a star ⭐
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-- Project from [Microverse](https://www.microverse.org/?grsf=i6yi2m) React & Redux module
+Special thanks to all the assistance received!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- LICENSE -->
+
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](./LICENSE.txt) licensed.
+
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

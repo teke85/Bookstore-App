@@ -13,7 +13,7 @@ class App extends React.Component {
   render() {
     return (
       <Router>
-        <Navbar />
+        <Navigation />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/categories" element={<Categories />} />

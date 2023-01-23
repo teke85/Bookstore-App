@@ -2,12 +2,12 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Book = ({ title, author }) => (
-  <div className="book-container">
-    <div className="book-info">
-      <p className="book-category">Category</p>
-      <h3 className="book-title">{title}</h3>
-      <h4 className="book-author">{author}</h4>
-      <div className="book-button">
+  <div className="bcontainer">
+    <div className="b-info">
+      <p className="b-category">Category</p>
+      <h3 className="b-title">{title}</h3>
+      <h4 className="b-author">{author}</h4>
+      <div className="b-button">
         <button type="button">Comments</button>
         <button type="button" className="removeBtn">
           Remove
@@ -17,13 +17,13 @@ const Book = ({ title, author }) => (
         </button>
       </div>
     </div>
-    <div className="book-progress">
-      <div className="progress-text">
+    <div className="progress">
+      <div className="p-text">
         <p>60%</p>
         <p>Completed</p>
       </div>
     </div>
-    <div className="book-update">
+    <div className="b-update">
       <p>CURRENT CHAPTER</p>
       <p>Chapter 18</p>
       <button type="button">UPDATE PROGRESS</button>

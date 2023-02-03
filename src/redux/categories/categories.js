@@ -1,5 +1,5 @@
 // Action types
-const CHECK_STATUS = 'categories/CHECK_STATUS';
+const CHECK_STATUS = 'Categories/CHECK_STATUS';
 
 // Initial State
 const initialState = {

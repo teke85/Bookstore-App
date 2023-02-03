@@ -1,11 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import '../index.css';
 
 const Navbar = () => (
   <nav className="nav">
     <ul>
       <h1>BookStore APP</h1>
-      <li><Link to="/">Home</Link></li>
+      <li>
+        <Link to="/">Home</Link>
+      </li>
       <li>
         <Link to="/Categories">Categories</Link>
       </li>

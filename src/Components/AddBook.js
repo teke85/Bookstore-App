@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { createBooks } from '../redux/books/books';
+import '../App.css';
 
 const AddBook = () => {
   const dispatch = useDispatch();
@@ -41,7 +42,7 @@ const AddBook = () => {
           value={newBook.title}
           onChange={handleInput}
         />
-        <select className="input" style={{ width: '165px' }}>
+        <select className="newBookInput">
           <option value="" disabled>
             Select category
           </option>

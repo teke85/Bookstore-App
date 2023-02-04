@@ -1,18 +1,24 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../index.css';
+import { FaUser } from 'react-icons/fa';
+import '../App.css';
 
 const Navbar = () => (
   <nav className="nav">
     <ul>
-      <h1>BookStore APP</h1>
+      <h1 className="navTitle">BookStore CMS</h1>
       <li>
-        <Link to="/">Home</Link>
+        <Link className="link" to="/">
+          BOOKS
+        </Link>
       </li>
       <li>
-        <Link to="/Categories">Categories</Link>
+        <Link className="link" to="/Categories">
+          CATEGORIES
+        </Link>
       </li>
     </ul>
+    <FaUser className="Icon" />
   </nav>
 );
 

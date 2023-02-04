@@ -36,7 +36,7 @@ const AddBook = () => {
         <input
           className="input"
           type="text"
-          placeholder="Title"
+          placeholder="Book title"
           name="title"
           required
           value={newBook.title}

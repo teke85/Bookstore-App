@@ -57,7 +57,8 @@ body {
   font-weight: 700;
 }
 
-.input {
+.input,
+.newBookInput {
   font-family: Poppins, sans-serif;
   font-size: 17px;
   line-height: 22px;
@@ -65,10 +66,6 @@ body {
   border: 1px solid #c9c7c7bf;
   padding: 9px 10px;
   border-radius: 4px;
-}
-
-.newBookInput {
-  width: 165px;
 }
 
 input {
